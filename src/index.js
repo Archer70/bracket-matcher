@@ -25,13 +25,11 @@ function validCloser (char) {
 }
 
 function closerFor (char) {
-  const closers = {
+  return {
     '(': ')',
     '[': ']',
     '{': '}'
-  }
-
-  return closers[char]
+  }[char]
 }
 
 function lastOpener (openers) {
