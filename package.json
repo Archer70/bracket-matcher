@@ -1,0 +1,27 @@
+{
+  "name": "bracket-matcher",
+  "version": "1.0.0",
+  "description": "A program to check brackets are matched an in the correct order.",
+  "main": "index.js",
+  "author": "Scott Christianson",
+  "license": "MIT",
+  "scripts": {
+    "build": "bable src --out-dir dist",
+    "lint": "eslint src test",
+    "test": "mocha --require \"@babel/register\" test"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.0",
+    "@babel/register": "^7.0.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.12.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0"
+  }
+}
